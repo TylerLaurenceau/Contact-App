@@ -13,12 +13,20 @@ $stateProvider
 
     .state('addContact', {
       url: '/addContact',
-      templateUrl: 'templates/addContact.tpl.html'
+      templateUrl: 'templates/addContact.tpl.html',
+      controller: 'ContactController'
     })
 
     .state('viewContacts', {
       url: '/contacts',
-      templateUrl: 'templates/viewContacts.tpl.html'
+      templateUrl: 'templates/viewContacts.tpl.html',
+      controller: 'ContactController'
+    })
+
+    .state('viewOneContact', {
+      url: '/contacts/:id',
+      templateUrl: 'templates/viewContacts.tpl.html',
+      controller: 'ContactController'
     })
 
 

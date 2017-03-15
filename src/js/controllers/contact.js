@@ -16,7 +16,7 @@ function ContactController ($scope, $http){
   init();
 
 
-  $scope.addShelter = function (data){
+  $scope.addContact = function (data){
     $http.post(`${SERVER_URL}/contacts`).then(resp => {
       console.log(resp.data);
       $scope.currentContact = resp.data;
