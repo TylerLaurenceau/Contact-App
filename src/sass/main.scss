@@ -1,0 +1,94 @@
+ul{
+  margin-top: 0px;
+  padding-left: 0px;
+}
+
+.contacts{
+  text-align: center;
+  line-height: 50px;
+  border: 1px solid lightgrey;
+  width: 300px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: auto;
+  list-style-type: none;
+  font-weight:bold;
+  font-size:20px;
+
+  a{
+    text-decoration: none;
+    color:lightgrey;
+  }
+  a:hover{
+    color:black;
+  }
+}
+
+.back{
+  font-size: 20px;
+  font-weight: bold;
+  color:lightgrey;
+  margin:20px;
+
+  a{
+    text-decoration: none;
+    color:lightgrey;
+  }
+
+  a:hover{
+    color:black;
+  }
+}
+
+  .addContact{
+    font-size: 20px;
+    font-weight: bold;
+    color:lightgrey;
+    margin:20px;
+
+    a{
+      text-decoration: none;
+      color:lightgrey;
+  }
+
+  a:hover{
+    color:black;
+  }
+}
+
+form{
+text-align: center;
+line-height: 50px;
+border: 1px solid lightgrey;
+width: 300px;
+padding-top: 20px;
+padding-bottom: 20px;
+margin: auto;
+input{
+  margin-bottom: 20px;
+  width:250px;
+}
+button{
+  background: lightblue;
+  color:white;
+  border:1px solid lightgrey;
+  border-radius: 10px;
+}
+}
+
+.title{
+  text-align: center;
+  font-size: 30px;
+  width:  300px;
+  height: 60px;
+  margin: auto;
+  margin-top: 25px;
+  border:1px solid lightgrey;
+  border-bottom: 0px;
+  padding-top:20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color:white;
+  background:lightgreen;
+  font-weight: bold;
+}

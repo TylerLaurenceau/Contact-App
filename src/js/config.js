@@ -25,13 +25,13 @@ $stateProvider
 
     .state('viewOneContact', {
       url: '/contacts/:id',
-      templateUrl: 'templates/viewContacts.tpl.html',
+      templateUrl: 'templates/viewOneContact.tpl.html',
       controller: 'ContactController'
     })
 
 
-    $urlRouterProvider.when('', '/home');
-    $urlRouterProvider.otherwise("/home");
+    $urlRouterProvider.when('', '/contacts');
+    $urlRouterProvider.otherwise("/contacts");
   };
 
 Config.$inject = ['$stateProvider', '$urlRouterProvider'];

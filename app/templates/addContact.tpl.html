@@ -1,16 +1,19 @@
   <div class = "addContact">
+    <span class = "back"><a href = "#!/contacts">BACK</a></span>
+      <div class = "title">Add a Contact</div>
         <form ng-submit = "addContact(contact)">
-          <input type = "text" placeholder = "Name (Required)" ng-model = "contact.name"/>
 
-          <input type = "text" placeholder = "Phone (Required)" ng-model = "contact.phone"/>
+          <input type = "text" placeholder = "Name (Required)" ng-model = "contact.name"/><br/>
 
-          <input type = "text" placeholder = "Email" ng-model = "contact.email"/>
+          <input type = "text" placeholder = "Phone (Required)" ng-model = "contact.phone"/><br/>
 
-          <input type = "text" placeholder = "City" ng-model = "contact.city"/>
+          <input type = "text" placeholder = "Email" ng-model = "contact.email"/><br/>
 
-          <input type = "text" placeholder = "State" ng-model = "contact.state"/>
+          <input type = "text" placeholder = "City" ng-model = "contact.city"/><br/>
 
-          <input type = "text" placeholder = "Photo URL" ng-model = "contact.photo"/>
+          <input type = "text" placeholder = "State" ng-model = "contact.state"/><br/>
+
+          <input type = "text" placeholder = "Photo URL" ng-model = "contact.photo_url"/><br/>
 
           <button type="button is-primary">Add Contact</button>
         </form>
